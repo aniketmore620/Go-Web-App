@@ -17,7 +17,7 @@ COPY --from=base /app/main .
 
 COPY --from=base /app/static ./static
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD [ "./main" ]
 
